@@ -1,0 +1,19 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        jcenter()
+        maven {
+            url "https://raw.githubusercontent.com/ndtom/maven-repo/master/"
+        }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.2.3'
+        classpath 'com.nimbledroid:gradle-profiler:1.0.4'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
