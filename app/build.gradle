@@ -1,5 +1,8 @@
+plugins {
+    id "com.nimbledroid.profiler" version "1.0.4"
+}
+
 apply plugin: 'com.android.application'
-apply plugin: "com.nimbledroid.profiler"
 
 android {
     compileSdkVersion 19
