@@ -3,12 +3,12 @@ buildscript {
     repositories {
         jcenter()
         maven {
-            url "https://raw.githubusercontent.com/ndtom/maven-repo/master/"
+            url "https://plugins.gradle.org/m2/"
         }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:1.2.3'
-        classpath 'com.nimbledroid:gradle-profiler:1.0.5'
+        classpath "gradle.plugin.com.nimbledroid:gradle-profiler:1.0.4"
     }
 }
 
