@@ -53,4 +53,5 @@ if (propFile.canRead()){
 nimbledroid {
     apiKey "$System.env.NIMBLE_KEY"
     server 'https://staging.nimbledroid.com'
+    variant 'debug'
 }
