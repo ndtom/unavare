@@ -53,5 +53,5 @@ if (propFile.canRead()){
 nimbledroid {
     apiKey "$System.env.NIMBLE_KEY"
     server 'https://staging.nimbledroid.com'
-    apkFilename 'app/build/outputs/apk/app-release.apk'
+    apkFilename '/var/lib/jenkins/workspace/unavare/app/build/outputs/apk/app-release.apk'
 }
