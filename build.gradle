@@ -8,7 +8,7 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:1.2.3'
-        classpath 'com.nimbledroid:gradle-profiler:1.0.5'
+        classpath 'com.nimbledroid:gradle-profiler:1.0.6'
     }
 }
 
